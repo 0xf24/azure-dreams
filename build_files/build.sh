@@ -15,6 +15,9 @@ cp -avf "/ctx/system_files"/. /
 # this installs a package from fedora repos
 dnf5 install -y tmux
 
+#movies together :3
+dnf5 install -y syncplay vlc mpv
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
