@@ -18,6 +18,9 @@ dnf5 install -y tmux
 #movies together :3
 dnf5 install -y syncplay vlc mpv
 
+#piper
+dnf5 install -y piper
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
